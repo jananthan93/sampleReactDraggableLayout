@@ -12,7 +12,7 @@ const DraggableContainer =({layouts,isDashboard,setCurrentLayouts})=>{
       {/*  */}
       <div className={isDashboard ? "dashboard-bg":"rgl-container"}>
       <GridLayout className="layout resizable-handle" layout={layoutsArr} cols={14} rowHeight={30} width={1400}
-       isBounded={true} 
+      //  isBounded={true} 
        isDraggable={!isDashboard} 
        isResizable={!isDashboard}
        onLayoutChange={l=>{
