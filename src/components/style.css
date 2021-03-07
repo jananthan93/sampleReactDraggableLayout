@@ -1,0 +1,32 @@
+
+.rgl-container{
+  /* height:1400px;
+  position: relative;
+  background: repeating-linear-gradient(transparent, #c2e8f3 40px),
+  repeating-linear-gradient(0.25turn, transparent, #c2e8f3 100px); */
+  height:1400px;
+  position: relative;
+  background-color: #c2e8f3;
+  background-size: 100px 40px;
+  background-image:
+    linear-gradient(to right, rgb(244, 247, 240) 3px, transparent 2px),
+    linear-gradient(to bottom, rgb(244, 247, 240) 3px, transparent 2px);
+}
+.dashboard-bg{
+  height:1400px;
+  background-color: #c2e8f3;
+}
+.card-button{
+  max-width:150;
+   background-color:'#cbcb32';
+   cursor:'pointer';
+   margin-right:2
+}
+.resizable-handle{
+  position: absolute;
+    width: 50px !important;
+    height: 50px !important;
+    
+
+}
+
